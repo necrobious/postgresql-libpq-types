@@ -1,4 +1,4 @@
-module Database.PostgreSQL.LibPQTypes where
+module Database.PostgreSQL.LibPQ.Types where
 
 import Database.PostgreSQL.LibPQ
 import Data.ByteString (ByteString)

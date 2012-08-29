@@ -2,7 +2,7 @@
 -- further documentation, see http://haskell.org/cabal/users-guide/
 
 name:                postgresql-libpq-types
-version:             0.1.0.0
+version:             0.1.1.0
 synopsis:            1:1 PostgreSQL Types API, using values from pg_types.h
 -- description:         
 license:             BSD3
@@ -16,7 +16,7 @@ cabal-version:       >=1.8
 
 library
   exposed-modules:  
-                       Database.PostgreSQL.LibPQTypes   
+                       Database.PostgreSQL.LibPQ.Types   
   -- other-modules:       
   build-depends:       base ==4.5.*,
                        postgresql-libpq,
