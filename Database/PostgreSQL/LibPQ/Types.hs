@@ -20,7 +20,7 @@ class PqOid oidtype where
 -- A Typeclass for marking a type a having the ability to be transformed into and out of LibPQ values.
 class LibPQ a where
   oidPQ  :: a -> Oid 
-  toPQ   :: a -> Maybe (ByteString, Format)
+  toPQ   :: a -> Maybe (Oid, ByteString, Format)
   fromPQ :: Maybe ByteString -> Maybe a
 
 -- BOOLOID
